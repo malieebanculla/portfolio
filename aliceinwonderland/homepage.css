@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+body {
+    margin: 10%;
+    text-transform: uppercase;
+    font-family: 'Libre Caslon Display', serif;
+    background: url(papertexture.jpg);
+}
+
+ol {
+    text-align: left;
+    float: left;
+    line-height: 3em;
+    list-style-position: inside;
+    word-spacing: .75em;
+    list-style-type: upper-roman;
+}
+
+h1 {
+    text-align: center;
+    line-height: 2em;
+    border-bottom: 2px solid goldenrod;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+p {
+    font-weight: bold;
+    font-size: small;
+    text-align:left;
+    letter-spacing: 1px;
+}
+
+a:link, a:visited { color: black }
+a:focus, a:hover, a:active { color: goldenrod;}
+
+a {
+    text-decoration: none;   
+}

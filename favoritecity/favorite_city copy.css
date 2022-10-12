@@ -1,0 +1,272 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.navbar {
+    padding-top: 35px;
+    margin: -50px;
+    position: relative;
+    background: black;
+    
+}
+
+.main {
+    margin-top: 10px;
+}
+
+header {
+    padding: 25px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 25px;
+}
+
+ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    line-height: 55px;
+}
+
+li a {
+    text-decoration: none;
+    color: lightgrey;
+    padding: 15px 35px;
+}
+
+li a:hover {
+    background-color: cadetblue;
+    color: white;
+}
+
+h1 {
+    background: url(images/creekmtns.jpg) no-repeat center; 
+    background-size: cover;
+    padding: 50px;
+    size: 15em;
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-family: 'Cardo', serif;
+}
+
+h2 {
+    padding: 35px;
+    border: 1px solid black;
+    background-color: black;
+    letter-spacing: 0.1em;
+    color: white;
+    border-top-right-radius: 50px;
+    margin: 25px;
+    clear: both;
+}
+
+h3 {
+    margin: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 15px 15px 15px 5px;
+    clear: both;
+    border-top: 1px solid black;
+    font-weight: bolder;
+}
+
+p {
+    margin: 35px;
+    line-height: 1.5em;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+p a {
+    color: #14746f;
+}
+
+p a:hover {
+    color: #89b0ae;
+}
+
+table {
+    border: 1px solid #14746f;
+}
+
+.about {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #14746f;
+}
+
+th {
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+img {
+    padding: 15px;
+}
+
+.snow img {
+    margin-left: 15px;
+    float: left;
+}
+
+.snow p {
+    margin-left: 15px;
+    padding-top: 50px;
+    display: block;
+}
+
+.hike img {
+    margin-left: 15px;
+    clear: both;
+    float: left;
+}
+
+.hike p {
+    margin-left: 15px;
+    padding-top: 50px;
+    display: block;
+}
+
+.fishing img {
+    margin-left: 15px;
+    float: left;
+}
+
+.fishing p {
+    margin-left: 15px;
+    padding-top: 50px;
+    display: block;
+}
+
+.fall img {
+    margin-left: 15px;
+    float: left;
+}
+
+.fall p {
+    margin-left: 15px;
+    padding-top: 50px;
+    display: block;
+}
+
+.attractions {
+    margin: 10% 10% 15% 10%;
+}
+
+.attractions img {
+    border-radius: 50%;
+    float: left;
+    margin: 50px;
+}
+
+.attractions p {
+    display: block;
+    padding: 25px;
+    background: #89b0ae;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: justify;
+}
+
+form {
+    margin: 100px;
+}
+
+legend {
+    font-family: 'Cardo', serif;
+    font-size: 3em;
+    font-weight: bold;
+    position:relative;
+    left: 12px;
+    text-align: left;
+    border-bottom: 1px solid #14746f;
+}
+
+label {
+    display: inline-block;
+}
+
+fieldset {
+    width: 100%;
+    border: none;
+    padding-top: 50px;
+    position: relative;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin: 5px 5px 5px 25px;
+    font-size: 1em;
+    width: 300px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+#city {
+    width: 225px;
+}
+
+select {
+    font-size: 2em;
+    padding: 10px;
+}
+
+#zipcode {
+    width: 75px;
+}
+
+input[type="email"] {
+    padding: 5px;
+    margin: 5px 5px 5px 25px;
+    font-size: 1em;
+    width: 300px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+input[type="phonenumber"] {
+    padding: 5px;
+    margin: 5px 5px 5px 25px;
+    font-size: 1em;
+    width: 300px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+#guests {
+    width: 35px;
+}
+
+#comments {
+    height: 100px
+}
+
+input[type="submit"] {
+    margin-left: 500px;
+    background-color: #89b0ae;
+    border: none;
+    border-radius: 10%;
+    padding: 10px;
+    font-size: 1em;
+    color: white;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+input[type="submit"]:hover {
+    background-color: #14746f;
+}
+
+

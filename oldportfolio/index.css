@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#top {
+    margin-right: 45px;
+}
+
+.navmenu {
+    width: 100%;
+    padding: 45px 0 45px 0;
+    text-align: right;
+}
+
+.navmenu a {
+    color: black;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 1px solid darkgrey;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.navmenu a:hover {
+    border: 2px solid #EDBB99;
+    color: #EDBB99;
+    font-weight: bold;
+}
+
+#landing {
+    background-image: url(images/banner.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 35px;
+}
+
+h1 {
+    padding: 35px;
+    text-align: center;
+    letter-spacing: 0.75em;
+    color: white;
+    border-bottom: 1px solid darkgray;
+    font-family: 'Crushed', cursive;
+    font-size: 3em;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    letter-spacing: 0.5em;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.welcome {
+    color: white;
+    padding: 35px;
+    border-bottom: 1px solid darkgray;
+    text-align: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.25em;
+}
+
+#landing .button {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 35px;
+    margin-top: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#landing .button:hover {
+    border: 2px solid #EDBB99;
+    color: #EDBB99;
+}
+
+#main {
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top: 1px solid darkgray;
+}
+
+.body h3 {
+    margin-top: 45px;
+    margin-left: 45px;
+    margin-bottom: 25px;
+    padding: 35px;
+    letter-spacing: 0.2em;
+    clear: both;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: #FAEBD7;
+    border-top-right-radius: 50px;
+    border-left: 5px solid #EDBB99;
+}
+
+.body {
+    padding-bottom: 45px;
+}
+
+.about {
+    display: flex;
+}
+
+.about img {
+    padding: 20px;
+    float: left;
+    width: 350px;
+    height: 230px;
+}
+
+.about p {
+    padding-top: 25px;
+    text-align: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    line-height: 35px;
+    font-size: 1.25em;
+}
+
+.goals {
+    padding-bottom: 45px;
+    display: flex;
+    border-bottom: 1px solid darkgray;
+}
+
+.goals p {
+    text-align: center;
+    float: left;
+    margin-left: 5%;
+    font-family: 'Darker Grotesque', sans-serif;
+    line-height: 35px;
+    font-size: 1.25em;
+}
+
+.goals img {
+    padding: 20px;
+    width: 350px;
+    height: 230px;
+}
+
+.contact {
+    text-align: center;
+    clear: both;
+    font-family: 'Darker Grotesque', sans-serif;
+    margin-bottom: 50px;
+}
+.contact h3 {
+    padding: 35px;
+    letter-spacing: 0.2em;
+    clear: both;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: #FAEBD7;
+    border-left: 5px solid #EDBB99;
+    border-right: 5px solid #EDBB99;
+}
+
+.contact p {
+    line-height: 35px;
+    text-transform: uppercase;
+    padding: 35px;
+    font-size: 1em;
+    letter-spacing: 5px;
+    border-bottom: 1px solid darkgray;
+}

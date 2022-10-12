@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="favorite_city copy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Yantramanav:wght@300&display=swap" rel="stylesheet">    
+</head>
+
+<header>
+    <div class="navbar">
+        <ul>
+            <li><a href="favorite_city copy.html">Home</a> </li>
+            <li><a href="reservations.html">Reservations</a></li>
+        </ul>
+    </div>
+</header>
+
+<body>
+    <form target="" method="post">
+        <fieldset id="custInfo">
+            <legend>Reservations</legend>
+                <input name="custName" id="name" type="text" placeholder="First Name" required>
+                <input name="custName" id="name" type="text" placeholder="Last Name" required>
+                <br>
+                <br>
+                <input type="text" placeholder="Street Address" id="address">
+                <input name="city" id="city" type="text" placeholder="City">
+                <label for="state">State:</label>
+                <select name="state">
+                    <option value="select">Select</option>
+                    <option value="CA">CA</option>
+                    <option value="OR">OR</option>
+                    <option value="WA">WA</option>
+                </select>
+                <input name="zipcode" type="text" placeholder="Zip Code" id="zipcode">
+                <br>
+                <br>
+                <input type="email" name="email" id="email" placeholder="Email Address" required>
+                <input type="phonenumber" type="text" placeholder="Phone Number" id="phonenumber">
+                <label for="age">Age:</label>
+                <select name="age">
+                    <option value="select">Select</option>
+                    <option value="Under18">Under 18</option>
+                    <option value="18-25">18-25</option>
+                    <option value="26-35">26-35</option>
+                    <option value="36-45">36-45</option>
+                    <option value="46-55">46-55</option>
+                    <option value="56+">56+</option>
+                </select>
+            </fieldset>
+            <fieldset id="resInfo">
+                <label for="checkin">Check In Date:</label>
+                <input type="text" name="date" id="date" placeholder="MM/DD/YYYY">
+                <label for="checkout">Check Out Date:</label>
+                <input type="text" name="date" id="date" placeholder="MM/DD/YYYY">
+                <br>
+                <lable for="guests">Number of Guests</lable>
+                <input type="text" name="guests" id="guests">
+                <br>
+                <br>
+                <label for="comments">Comments:</label>
+                <input type="text" name="comments" id="comments">
+            </fieldset>
+                <input type="submit" value="Submit">
+        </form>
+</body>
+</html>
